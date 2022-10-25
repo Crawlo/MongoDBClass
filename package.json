@@ -1,27 +1,16 @@
 {
   "name": "mongodbclass",
-  "version": "1.0.8",
-  "description": "MongoDB Driver based",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Crawlo/MongoDBClass.git"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "peerDependencies": {
-    "mongodb": "^3.7.3"
-  },
-  "keywords": [
-    "database",
-    "mongodb"
-  ],
+  "author": "Crawlo",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Crawlo/MongoDBClass/issues"
-  },
-  "homepage": "https://github.com/Crawlo/MongoDBClass",
   "dependencies": {
     "dataloader": "^1.4.0",
+    "mongodb": "^3.2.7",
     "sift": "^7.0.1"
   }
 }
