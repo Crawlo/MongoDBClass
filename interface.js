@@ -1,4 +1,4 @@
-export function extend(Class) {
+module.exports = function extend(Class) {
     const connections = new Map()
     return class extends Class {
         static configureFor(name, connection) {
