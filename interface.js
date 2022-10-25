@@ -18,4 +18,4 @@ export function extend(Class) {
         }
     }
 }
-export default extend(class {})
+module.exports = extend(class {})

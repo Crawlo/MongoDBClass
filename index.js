@@ -1,7 +1,5 @@
-import {
-    extend
-} from './interface'
-import mongodb from 'mongodb'
+const extend = require('./interface').extend
+const mongodb = require('mongodb')
 
 const IDRegex = /^[0-9a-fA-F]{24}$/
 
@@ -22,8 +20,8 @@ class MongoDB extends extend(mongodb) {
     }
 }
 
-export {
+module.exports = MongoDB
+module.exports = {
     IDRegex
 }
-export * from 'mongodb'
-export default MongoDB
+module.exports = mongodb
