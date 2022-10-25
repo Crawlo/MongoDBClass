@@ -1,4 +1,4 @@
-const extend = require('./interface').extend
+const extend = require('./interface')
 const mongodb = require('mongodb')
 
 const IDRegex = /^[0-9a-fA-F]{24}$/

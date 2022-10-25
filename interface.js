@@ -18,4 +18,3 @@ module.exports = function extend(Class) {
         }
     }
 }
-module.exports = extend(class {})
